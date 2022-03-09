@@ -1,8 +1,10 @@
-.main-header {
+body {
+	margin: 0px;
+}
+#main-header {
 	background-color: #dd0000;
-	margin: 0;
 	padding: 15px 20px;
-	width: 100%;
+	max-width: 100%;
 }
 #main-header-heading {
 	display: inline;
@@ -42,6 +44,8 @@
 }
 #section-heading {
 	font-family: Helvetica,Arial,sans-serif;
+	margin-top: 0px;
+	padding-top: 30px;
 }
 #entry {
 	font-family:  Helvetica,Arial,sans-serif;
@@ -135,19 +139,23 @@ img {
 #aside-comment {
 	float: right;
 	width: 360px;
-	margin: 0px 0px 50px 40px;
+	margin: 0px 0px 12px 40px;
 	font-family: Helvetica,Arial,sans-serif;
 	border: 1px solid black;
 }
 #aside-list {
 	float: right;
-	margin: 0px 0px 50px 440px
+	margin: 16px 0px 20px 350px
+}
+.aside {
+	margin-top: 22px;
+	padding-bottom: 50px;
+	
 }
 #footer {
 	background-color: #dd0000;
-	margin-top: 10px;
-	padding: 15px 20px;
-	width: 100%;
+	padding: 10px 0px;
+	max-width: 100%;
 }
 #footer li {
 	display: inline;
