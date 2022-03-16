@@ -1,2 +1,3 @@
 # Project
-## My webDev project
+
+ This project contains a time webpage design using HTML and CSS
