@@ -1,3 +1,3 @@
 # Project
 
- This project contains a Time webpage design using HTML and CSS
+ This project contains a Time.com webpage design using HTML and CSS
