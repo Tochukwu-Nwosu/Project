@@ -2,9 +2,13 @@ body {
 	margin: 0px;
 }
 #main-header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
 	background-color: #dd0000;
+	/* max-width: 100%; */
 	padding: 15px 20px;
-	max-width: 100%;
 }
 #main-header-heading {
 	display: inline;
@@ -37,10 +41,14 @@ body {
 	background-color: #ffffff;
 }
 #section {
+	position: relative;
+    top: 68px;
+	margin-bottom: 68px;
 	width: 60%;
 	padding-left: 100px;
 	padding-right: 30px;
 	border-right: 1px solid #aaaaaa;
+	z-index: -1;
 }
 #section-heading {
 	font-family: Helvetica,Arial,sans-serif;
